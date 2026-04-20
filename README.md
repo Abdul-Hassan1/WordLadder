@@ -1,6 +1,7 @@
 # Word Ladder Game & Solver
 
 ![Project Demo](ProjectDemo.png)
+
 *Example of the solver finding a path between "bit" and "fun"*
 
 ## Description
