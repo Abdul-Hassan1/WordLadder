@@ -4,7 +4,8 @@ Description:
 This project is a high-performance C program designed to solve the classic "Word Ladder" puzzle. The goal is to find the shortest possible transformation from a starting word to a target word by changing only one letter at a time. 
 Each  step must be a valid word found in the provided dictionary. I built this to demonstrate efficient graph traversal techniques and to practice managing complex data structures in a low level language.
 
-Features
+Features:
+
 Shortest Path Guarantee: By utilizing a Breadth-First Search (BFS) algorithm, the program always identifies the most efficient transformation sequence.
 
 Dictionary Validation: The solver dynamically loads and parses a dictionary file to ensure every step in the ladder is a legitimate word.
@@ -32,6 +33,7 @@ Search Implementation: I integrated a BFS algorithm using a queue-based system t
 Refinement & Cleanup: The final phase involved optimizing the search speed, automating the build process with a Makefile, and verifying memory safety using Valgrind.
 
 Challenges:
+
 Optimizing Search Speed: One of the biggest hurdles was ensuring the search didn't lag or crash when processing dictionaries with tens of thousands of words. I had to optimize how neighbors were identified to maintain performance.
 
 Path Reconstruction: Ensuring the program could accurately track and print the steps of the ladder in the correct order required careful management of the queue data structure and parent-node tracking.
