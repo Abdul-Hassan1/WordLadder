@@ -31,7 +31,7 @@ Search Implementation: I integrated a BFS algorithm using a queue-based system t
 
 Refinement & Cleanup: The final phase involved optimizing the search speed, automating the build process with a Makefile, and verifying memory safety using Valgrind.
 
-Challenges
+Challenges:
 Optimizing Search Speed: One of the biggest hurdles was ensuring the search didn't lag or crash when processing dictionaries with tens of thousands of words. I had to optimize how neighbors were identified to maintain performance.
 
 Path Reconstruction: Ensuring the program could accurately track and print the steps of the ladder in the correct order required careful management of the queue data structure and parent-node tracking.
