@@ -1,5 +1,8 @@
 # Word Ladder Game & Solver
 
+![Project Demo](ProjectDemo.png)
+*Example of the solver finding a path between "bit" and "fun"*
+
 ## Description
 This project is a C program designed to solve the classic "Word Ladder" puzzle. The goal is to find the shortest possible transformation from a starting word to a target word by changing only one letter at a time. Each intermediate step must be a valid word found in the provided dictionary. I built this to demonstrate efficient graph traversal techniques and to practice managing complex data structures in a low-level language.
 
